@@ -251,13 +251,15 @@ cd siminlab-inventory-lending-management-system
 
 composer install
 
+npm install
+
 cp .env.example .env
 
 php artisan key:generate
 
 php artisan migrate
 
-php artisan serve
+composer run dev
 ```
 
 Application:
